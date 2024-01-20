@@ -1,0 +1,59 @@
+/* section style */
+.filters {
+    background-color: white;
+    height: 70%;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    
+}
+
+/* button style */
+.filters button {
+    background-color: #FF5A5F;
+    font-style: 18px;
+    width: 20%;
+    color: #FFFFFF;
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    margin: 10px 30px 10px 300px;
+}
+
+.filters button:hover {
+    opacity: 0.9;
+}
+
+/* h3 locations & h4 amenities style */
+
+.filters .locations,
+.filters .amenities{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    margin-left: 40px;
+    vertical-align: middle;
+    border-right: 1px solid #DDDDDD;
+}
+
+.filters .amenities{
+    border-right: 1px solid #DDDDDD;
+}
+
+.filters .locations h3,
+.filters .amenities h3{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.filters .locations h4,
+.filters .amenities h4{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+

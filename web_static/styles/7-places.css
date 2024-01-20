@@ -1,0 +1,36 @@
+/* places style */
+.places{
+    margin-top: 20px;
+}
+.places div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+}
+.places h1 {
+    align-items: start;
+    width: 100%;
+    font-style: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+.places h2 {
+    text-align: center;
+    font-style: 31px;
+    font-weight: bold;
+    font-size: 30px;
+    block-size: border-box;
+    margin: 0;
+}
+
+/* footer {
+    position: relative;
+} */
